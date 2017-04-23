@@ -1,0 +1,2 @@
+string packageName
+NodeStatus[] nodes

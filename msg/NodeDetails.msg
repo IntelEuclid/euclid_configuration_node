@@ -1,0 +1,5 @@
+string nodeName
+string packageName
+string[] runningNodeList
+string launchFileName
+string launchParams

@@ -1,0 +1,6 @@
+<launch>
+   <arg name="scenario" default="NONE"/>
+  <node name="CsScenarioManager" pkg="configuration_node" type="CsScenarioManager.py" args="$(arg scenario)" output="screen" />
+
+
+</launch>

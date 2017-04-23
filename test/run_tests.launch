@@ -1,0 +1,4 @@
+<launch>
+   <node name="relay" pkg="topic_tools" type="relay" args="/cmd /koko"/>
+   <test test-name="run_test" pkg="configuration_node" type="run_test.py" />
+</launch>

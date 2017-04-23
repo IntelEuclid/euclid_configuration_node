@@ -1,0 +1,43 @@
+<config version="0.1a">
+  <nodes>
+    <node name="Test 1 node">
+      <package>realsense_camera</package>
+      <launch_file>hector.launch</launch_file>
+      <configurationItem>some_file</configurationItem>
+      <running_nodes>
+        <node>hector_trajectory_server</node>
+      </running_nodes>
+      <launch_parameters />
+    </node>
+  </nodes>  
+  <scenarios>
+    <scenario name="Camera">
+      <node name="Cameras">
+        <launch_parameters />
+      </node>
+      <node name="Depth Transcode">
+        <launch_parameters />
+      </node>
+    </scenario>
+    <scenario name="R200Camera">
+      <node name="Camera No Motion">
+        <launch_parameters />
+      </node>
+      <node name="Depth Transcode">
+        <launch_parameters />
+      </node>
+    </scenario>
+  </scenarios>
+  <active_scenario>
+    <name />
+  </active_scenario>
+  <system_nodes>
+
+  </system_nodes>
+  <robots>
+    
+  </robots>
+  <oobe_nodes>
+    
+  </oobe_nodes>
+</config>

@@ -1,0 +1,5 @@
+string nodeName
+---
+int8 ret
+bool res
+

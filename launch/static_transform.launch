@@ -1,0 +1,14 @@
+<launch>
+  <arg name="x"/>
+  <arg name="y"/>
+  <arg name="z"/>
+  <arg name="yaw"/>
+  <arg name="pitch"/>
+  <arg name="roll"/>
+  <arg name="frame_id"/>
+  <arg name="child_frame_id"/>
+  <arg name="frame_rate"/>
+  <node name="static_transform_publisher" pkg="tf" type="static_transform_publisher" args="$(arg x) $(arg y) $(arg z) $(arg yaw) $(arg pitch) $(arg roll) $(arg frame_id) $(arg child_frame_id) $(arg frame_rate)" output="screen" />
+
+
+</launch>

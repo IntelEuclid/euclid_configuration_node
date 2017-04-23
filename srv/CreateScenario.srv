@@ -1,0 +1,5 @@
+string scenarioName
+string[] nodes
+NodeLaunchParam[] launchparams
+---
+bool res

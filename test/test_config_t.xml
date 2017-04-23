@@ -1,0 +1,32 @@
+<config version="0.1a">
+  <nodes>
+    <node name="Test 1 node">
+      <package>realsense_camera</package>
+      <launch_file>hector.launch</launch_file>
+      <configurationItem>some_file</configurationItem>
+      <running_nodes>
+        <node>hector_trajectory_server</node>
+      </running_nodes>
+      <launch_parameters />
+    </node>
+  </nodes>  
+  <scenarios>
+    <scenario name="Camera">
+      <node name="Test 1 node">
+        <launch_parameters />
+      </node>
+    </scenario>
+  <scenario name="TestScenario"><node name="Test 1 node"><launch_parameters /></node></scenario></scenarios>
+  <active_scenario>
+    <name />
+  </active_scenario>
+  <system_nodes>
+
+  </system_nodes>
+  <robots>
+    <node>Arduino</node>
+  </robots>
+  <oobe_nodes>
+    <node name="Test 1 node" />
+  </oobe_nodes>
+</config>

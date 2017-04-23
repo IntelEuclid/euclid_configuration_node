@@ -1,0 +1,5 @@
+string nodeName
+string param
+string value
+---
+bool res
