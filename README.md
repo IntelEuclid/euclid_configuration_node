@@ -2,9 +2,9 @@
 
 This system node is reponsible for handling Nodes, Scenarios and loading of their configuration on the device. 
 
-http://www.intel.com/Euclid_XXX
+[Intel® Euclid™ Community Site](http://www.euclidcommunity.intel.com).
 
-http://wiki.ros.org/EuclidWiki_XXX
+[Intel® Euclid™ Support Forum](http://www.intel.com/content/www/us/en/support/emerging-technologies/intel-euclid-development-kit.html).
 
 ## Subscribed Topics
 
