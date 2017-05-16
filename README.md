@@ -88,7 +88,7 @@ This system node is reponsible for handling Nodes, Scenarios and loading of thei
 ## Contributing to the Project
 
 The Intel&reg; Euclid&trade; Configuration node is developed and distributed under
-a BSD-3 license as noted in [licenses/License.txt](licenses/License.txt).
+a BSD-3 license as noted in [License file](LICENSE).
 
 By making a contribution to this project, I certify that:
 
