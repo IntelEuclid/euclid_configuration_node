@@ -1,4 +1,4 @@
-# Intel&reg; Euclid&trade; Configuration node.
+# Intel&reg; Euclid&trade; Automation Nodes - Configuration node.
 
 This system node is reponsible for handling Nodes, Scenarios and loading of their configuration on the device. 
 
